@@ -1,0 +1,31 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "May the Node and Express be with you",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicmwenda/starwars.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Nicholas Mwenda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicmwenda/starwars/issues"
+  },
+  "homepage": "https://github.com/nicmwenda/starwars#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "promise": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
